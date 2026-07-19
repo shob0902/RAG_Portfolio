@@ -19,15 +19,35 @@ from rag.config import (
     MMR_LAMBDA,
 )
 from rag.embeddings import EmbeddingModel
+from rag.indexer import Indexer
+from rag.loaders import DocumentLoader
+from rag.splitter import DocumentSplitter
+from rag.utils import validate_dataset
+from rag.config import DATA_PATH
+
+
 class Retriever:
     _db = None
+
+    @classmethod
+    def ensure_index(cls):
+        if Path(VECTOR_DB_PATH).exists() and any(Path(VECTOR_DB_PATH).iterdir()):
+            return True
+
+        print("Vector database not found. Building index from source documents...")
+        validate_dataset(DATA_PATH)
+        documents = DocumentLoader().load_directory(DATA_PATH)
+        if not documents:
+            raise FileNotFoundError("No documents available to build the vector database.")
+        chunks = DocumentSplitter().split(documents)
+        indexer = Indexer()
+        indexer.create(chunks)
+        return True
+
     @classmethod
     def load(cls):
         if cls._db is None:
-            if not Path(VECTOR_DB_PATH).exists():
-                raise FileNotFoundError(
-                    "Vector database not found.\nRun build_index.py first."
-                )
+            cls.ensure_index()
             print("=" * 50)
             print("Loading Vector Database...")
             print("=" * 50)

@@ -2,9 +2,21 @@ import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from rag.chain import RAGChain
+from rag.retriever import Retriever
+
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5500", "http://127.0.0.1:5500", "http://localhost:8000", "http://127.0.0.1:8000", "http://localhost:3000", "http://127.0.0.1:3000", "https://shob0902.github.io/RAG_Portfolio/", "null"]}})
 chatbot = RAGChain()
+
+
+def init_app():
+    try:
+        Retriever.ensure_index()
+    except Exception as exc:
+        print(f"Index warm-up failed: {exc}")
+
+
+init_app()
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
