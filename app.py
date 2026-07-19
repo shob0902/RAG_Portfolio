@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from rag.chain import RAGChain
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5500", "http://127.0.0.1:5500", "http://localhost:8000", "http://127.0.0.1:8000", "http://localhost:3000", "http://127.0.0.1:3000", "https://your-portfolio-domain.com", "null"]}})
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5500", "http://127.0.0.1:5500", "http://localhost:8000", "http://127.0.0.1:8000", "http://localhost:3000", "http://127.0.0.1:3000", "https://shob0902.github.io/RAG_Portfolio/", "null"]}})
 chatbot = RAGChain()
 @app.route("/", methods=["GET"])
 def home():
