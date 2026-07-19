@@ -1,24 +1,93 @@
 import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from rag.chain import RAGChain
-from rag.retriever import Retriever
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5500", "http://127.0.0.1:5500", "http://localhost:8000", "http://127.0.0.1:8000", "http://localhost:3000", "http://127.0.0.1:3000", "https://shob0902.github.io/RAG_Portfolio/", "null"]}})
-chatbot = RAGChain()
+
+# Keep startup lightweight for Render.
+# The chatbot and retrieval stack are initialized lazily on first use.
+chatbot = None
 
 
-def init_app():
+def get_chatbot():
+    global chatbot
+    if chatbot is None:
+        from rag.chain import RAGChain
+        chatbot = RAGChain()
+    return chatbot
+
+
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "status": "online",
+        "service": "Portfolio AI Backend"
+    })
+
+
+@app.route("/api/chat", methods=["GET", "POST"])
+def chat():
+    if request.method == "GET":
+        return jsonify({
+            "message": "Use POST to interact with this endpoint."
+        })
     try:
-        Retriever.ensure_index()
-    except Exception as exc:
-        print(f"Index warm-up failed: {exc}")
+        data = request.get_json()
+        if not data:
+            return jsonify({
+                "success": False,
+                "message": "No JSON body provided."
+            }), 400
+        question = data.get("message", "").strip()
+        if not question:
+            return jsonify({
+                "success": False,
+                "message": "Message cannot be empty."
+            }), 400
+        system_prompt = data.get("system_prompt")
+        result = get_chatbot().ask(
+            question=question,
+            system_prompt=system_prompt
+        )
+        return jsonify({
+            "success": True,
+            "answer": result["answer"],
+            "sources": result["sources"]
+        })
+    except Exception as e:
+        return jsonify({
+            "success": False,
+            "message": str(e)
+        }), 500
 
 
-# Avoid eager model loading during cold starts on Render.
-# The index will be initialized lazily when the first request arrives.
-init_app()
+@app.route("/api/history", methods=["GET"])
+def history():
+    history = []
+    for message in get_chatbot().history():
+        history.append({
+            "type": message.__class__.__name__,
+            "content": message.content
+        })
+    return jsonify(history)
+
+
+@app.route("/api/clear", methods=["POST"])
+def clear():
+    get_chatbot().clear_memory()
+    return jsonify({
+        "success": True,
+        "message": "Conversation cleared."
+    })
+
+
+if __name__ == "__main__":
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 5000)),
+        debug=False
+    )
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
