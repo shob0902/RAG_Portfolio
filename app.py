@@ -16,6 +16,8 @@ def init_app():
         print(f"Index warm-up failed: {exc}")
 
 
+# Avoid eager model loading during cold starts on Render.
+# The index will be initialized lazily when the first request arrives.
 init_app()
 @app.route("/", methods=["GET"])
 def home():

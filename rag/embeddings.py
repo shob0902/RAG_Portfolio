@@ -11,6 +11,8 @@ and improves performance.
 """
 from langchain_huggingface import HuggingFaceEmbeddings
 from rag.config import EMBEDDING_MODEL
+
+
 class EmbeddingModel:
     """
     Singleton wrapper around
@@ -32,15 +34,19 @@ class EmbeddingModel:
             print("=" * 50)
             print("Loading Embedding Model...")
             print("=" * 50)
-            cls._instance = HuggingFaceEmbeddings(
-                model_name=EMBEDDING_MODEL,
-                model_kwargs={
-                    "device": "cpu"
-                },
-                encode_kwargs={
-                    "normalize_embeddings": True
-                }
-            )
+            try:
+                cls._instance = HuggingFaceEmbeddings(
+                    model_name=EMBEDDING_MODEL,
+                    model_kwargs={
+                        "device": "cpu"
+                    },
+                    encode_kwargs={
+                        "normalize_embeddings": True
+                    }
+                )
+            except Exception as exc:
+                print(f"Embedding model load failed: {exc}")
+                raise
             print("Embedding Model Loaded Successfully\n")
         return cls._instance
     @classmethod
