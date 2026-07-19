@@ -1,0 +1,144 @@
+Professional Certifications
+
+I continuously invest in learning emerging technologies in Artificial Intelligence, Machine Learning, Cloud Computing, and Software Development. The following certifications reflect my commitment to expanding my technical expertise and staying updated with industry trends.
+
+------------------------------------------------------------
+
+Microsoft Azure AI Fundamentals (AI-900)
+Issued by: Microsoft
+Year: 2024
+
+Description:
+Successfully completed the Azure AI Fundamentals certification covering the core concepts of Artificial Intelligence and Microsoft Azure AI services.
+
+Topics Covered:
+- Artificial Intelligence fundamentals
+- Machine Learning concepts
+- Computer Vision
+- Natural Language Processing (NLP)
+- Conversational AI
+- Responsible AI
+- Azure AI Services
+
+Skills Gained:
+- Azure AI
+- AI Fundamentals
+- Machine Learning Basics
+- Cloud AI Services
+
+------------------------------------------------------------
+
+Building LLM Applications
+Issued by: NVIDIA
+Year: 2025
+
+Description:
+Completed NVIDIA's professional course focused on building applications powered by Large Language Models (LLMs).
+
+Topics Covered:
+- Prompt Engineering
+- Large Language Models
+- Retrieval-Augmented Generation (RAG)
+- AI Application Development
+- LLM Deployment
+- AI Workflows
+
+Skills Gained:
+- LLM Applications
+- Prompt Engineering
+- Generative AI
+- RAG Systems
+- AI Development
+
+------------------------------------------------------------
+
+Data Analytics Virtual Simulation
+Issued by: Deloitte
+Year: 2025
+
+Description:
+Completed Deloitte's Data Analytics Virtual Experience Program, solving real-world business analytics problems using modern analytical tools.
+
+Topics Covered:
+- Data Cleaning
+- Data Analysis
+- Business Intelligence
+- Dashboard Creation
+- Data Visualization
+
+Tools Used:
+- Microsoft Excel
+- Tableau
+
+Skills Gained:
+- Data Analytics
+- Business Intelligence
+- Data Visualization
+- Analytical Thinking
+
+------------------------------------------------------------
+
+AI Tools Mastery
+Issued by: Be10x
+Year: 2025
+
+Description:
+Completed training on modern AI productivity tools and automation platforms designed to improve workflows and business efficiency.
+
+Topics Covered:
+- AI Productivity Tools
+- Workflow Automation
+- AI-powered Content Generation
+- Business Automation
+
+Skills Gained:
+- AI Tools
+- Productivity
+- Automation
+- Workflow Optimization
+
+------------------------------------------------------------
+
+Java, Data Structures & Algorithms, and Mobile Development
+Issued by: Udemy
+Duration: 2023–2025
+
+Description:
+Completed multiple technical courses covering programming fundamentals, software engineering, data structures, algorithms, and mobile application development.
+
+Topics Covered:
+- Java Programming
+- Object-Oriented Programming
+- Data Structures
+- Algorithms
+- Android Development
+- Mobile Application Development
+
+Skills Gained:
+- Java
+- DSA
+- OOP
+- Android Development
+- Problem Solving
+
+------------------------------------------------------------
+
+Certification Summary
+
+Total Certifications: 5
+
+Domains Covered:
+- Artificial Intelligence
+- Machine Learning
+- Large Language Models (LLMs)
+- Cloud Computing
+- Data Analytics
+- Business Intelligence
+- Software Development
+- Java Programming
+- Data Structures & Algorithms
+- Mobile Application Development
+
+Learning Philosophy
+
+I believe that continuous learning is essential in the rapidly evolving field of Artificial Intelligence and Software Engineering. I regularly complete certifications, explore emerging technologies, and apply newly acquired knowledge in real-world projects to strengthen both my technical and practical expertise.

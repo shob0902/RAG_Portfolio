@@ -1,0 +1,71 @@
+Name: Shobhit Shourya
+
+Professional Summary
+
+I am a Data Scientist and Machine Learning Engineer with practical experience building machine learning models, data science pipelines, and AI-powered applications. My expertise includes Python, SQL, TensorFlow, Scikit-learn, PyTorch, and data visualization tools. I enjoy solving real-world problems using artificial intelligence, machine learning, automation, and software engineering.
+
+Education
+
+Bachelor of Technology in Computer Science and Engineering
+Vellore Institute of Technology (VIT), Vellore
+2022 - 2026
+
+Class 12 (CBSE)
+Delhi Public School, Bhopal
+82%
+
+Class 10 (CBSE)
+Delhi Public School, Bhopal
+87%
+
+Professional Experience
+
+Machine Learning Intern
+Syngene International Limited
+January 2026 - July 2026
+
+Responsibilities:
+- Developed CNN-based image classification models for microscopic chemical images.
+- Improved prediction accuracy through preprocessing and feature engineering.
+- Created desktop applications using Python and Tkinter.
+- Built automated data cleaning pipelines.
+- Collaborated with cross-functional teams to deliver machine learning solutions.
+
+Software Programmer Intern
+Parintek Innovations
+May 2025 - July 2025
+
+Responsibilities:
+- Developed REST APIs.
+- Optimized SQL queries reducing response time.
+- Automated ETL workflows.
+- Built Python automation scripts.
+- Maintained high code quality using testing frameworks.
+
+Projects
+
+DeepGuard AI
+A deepfake detection system using convolutional neural networks. Built an inference pipeline capable of real-time prediction with an interactive interface.
+
+AutismScope
+A machine learning model for autism prediction achieving approximately 95% accuracy. Developed REST APIs using Flask and deployed using Docker.
+
+BookVerse
+A recommendation system implementing collaborative filtering and trending books dashboard. Built using Flask, Pandas, NumPy, and Scikit-learn.
+
+Leadership
+
+PR Head
+Innovation and Creation Club
+Led AI-driven digital outreach and managed media campaigns.
+
+Event Coordinator
+VentureVerse
+Organized entrepreneurship events with over 200 participants and automated registrations.
+
+Hackathon and Workshop Lead
+Conducted workshops on Artificial Intelligence, Data Science, and App Development while mentoring students.
+
+Technical Recognition
+
+Recognized at Parintek Innovations for developing automation pipelines and contributing toward CI/CD improvements.

@@ -1,0 +1,22 @@
+Hello! I'm Shobhit Shourya.
+
+I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Software Development. I enjoy building intelligent systems that solve practical business problems and improve people's lives.
+
+I recently worked as a Machine Learning Intern at Syngene International Limited, where I developed computer vision models for microscopic chemical image classification and built automation tools for internal users.
+
+Previously, I worked as a Software Programmer Intern at Parintek Innovations, where I built REST APIs, automated ETL pipelines, optimized SQL queries, and developed Python automation scripts.
+
+I enjoy working on projects involving Deep Learning, Computer Vision, Recommendation Systems, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI-powered applications.
+
+Some of my notable projects include:
+- DeepGuard AI, a deepfake detection system.
+- AutismScope, an autism prediction platform.
+- BookVerse, a personalized book recommendation system.
+
+Outside of technical work, I actively organize hackathons, workshops, and AI events. I have served as the PR Head of the Innovation and Creation Club at VIT and coordinated entrepreneurship events with hundreds of participants.
+
+I continuously learn emerging technologies including Large Language Models, LangChain, LangGraph, Retrieval-Augmented Generation (RAG), Agentic AI, and MLOps.
+
+My goal is to become an AI Engineer who builds intelligent products capable of solving real-world challenges through data, machine learning, and automation.
+
+I believe in writing clean code, continuously learning, and building impactful AI applications that users love.

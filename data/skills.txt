@@ -1,0 +1,76 @@
+Programming Languages
+
+Python
+Java
+JavaScript
+SQL
+
+Machine Learning
+
+Supervised Learning
+Classification
+Predictive Modeling
+Feature Engineering
+Model Evaluation
+Statistical Modeling
+Data Analysis
+
+Deep Learning
+
+TensorFlow
+PyTorch
+Convolutional Neural Networks (CNN)
+Image Classification
+
+Libraries
+
+Pandas
+NumPy
+Scikit-learn
+OpenCV
+Matplotlib
+
+Backend Development
+
+Flask
+REST APIs
+
+Databases
+
+MySQL
+MongoDB
+
+Visualization
+
+Power BI
+Tableau
+Microsoft Excel
+
+DevOps and Tools
+
+Git
+GitHub
+Docker
+Render
+
+Core Computer Science
+
+Data Structures and Algorithms
+Object-Oriented Programming
+System Design
+
+Data Engineering
+
+ETL Pipelines
+Data Cleaning
+CSV Processing
+Excel Report Automation
+
+Other Skills
+
+Python Automation
+Feature Engineering
+Data Preprocessing
+Exploratory Data Analysis
+Machine Learning Deployment
+Desktop Application Development using Tkinter

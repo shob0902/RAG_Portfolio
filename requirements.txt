@@ -1,0 +1,70 @@
+# ==============================
+# Core LangChain
+# ==============================
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-huggingface>=0.1.0
+langchain-ollama>=0.2.0
+langchain-text-splitters>=0.3.0
+# ==============================
+# Embedding Models
+# ==============================
+sentence-transformers>=3.0.0
+transformers>=4.45.0
+torch>=2.4.0
+accelerate>=0.34.0
+# ==============================
+# Vector Database
+# ==============================
+faiss-cpu>=1.8.0
+# ==============================
+# Document Loaders
+# ==============================
+pypdf
+pymupdf
+python-docx
+unstructured
+markdown
+beautifulsoup4
+lxml
+# ==============================
+# Backend
+# ==============================
+flask
+flask-cors
+gunicorn
+waitress
+# ==============================
+# Utilities
+# ==============================
+numpy
+pandas
+tqdm
+python-dotenv
+requests
+# ==============================
+# Tokenizers
+# ==============================
+tiktoken
+# ==============================
+# Optional Reranker
+# ==============================
+FlagEmbedding
+# ==============================
+# Optional OCR
+# ==============================
+pytesseract
+Pillow
+# ==============================
+# Logging
+# ==============================
+rich
+# ==============================
+# Serialization
+# ==============================
+orjson
+# ==============================
+# HTTP
+# ==============================
+httpx

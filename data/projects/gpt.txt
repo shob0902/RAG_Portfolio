@@ -1,0 +1,643 @@
+Project Name
+
+GPT From Scratch – Building a Generative Pre-trained Transformer from First Principles
+
+Project Type
+
+Artificial Intelligence | Large Language Models (LLMs) | Deep Learning | Natural Language Processing | Transformer Architecture
+
+Overview
+
+GPT From Scratch is a complete educational implementation of a Generative Pre-trained Transformer (GPT) built entirely from first principles using Python and PyTorch.
+
+Instead of relying on pre-built libraries such as Hugging Face Transformers, this project recreates every major component of a modern Large Language Model, beginning with a single artificial neuron and gradually progressing through neural networks, backpropagation, attention mechanisms, transformers, and finally a complete GPT capable of generating text.
+
+The project was developed while completing the NeetCode Machine Learning Course with the goal of deeply understanding how modern language models work internally rather than simply using existing frameworks.
+
+--------------------------------------------------------------------
+
+Problem Statement
+
+Modern Large Language Models such as GPT, LLaMA, Claude, Gemini, and DeepSeek have transformed Artificial Intelligence.
+
+However, most developers interact with these models through high-level APIs or libraries without understanding the underlying architecture.
+
+Using libraries such as:
+
+from transformers import GPT2Model
+
+can produce powerful models with only a few lines of code, but hides the mathematics and engineering behind:
+
+• Neural Networks
+• Backpropagation
+• Self-Attention
+• Multi-Head Attention
+• Positional Encoding
+• Transformer Blocks
+• Tokenization
+• Gradient Descent
+• Language Modeling
+
+This project was created to eliminate these "black boxes" and build every major GPT component from scratch.
+
+--------------------------------------------------------------------
+
+Objectives
+
+The primary objectives of the project are:
+
+• Understand the mathematics behind neural networks.
+• Implement deep learning algorithms manually.
+• Learn transformer architecture from the ground up.
+• Build every GPT component without external transformer libraries.
+• Understand how modern LLMs generate text.
+• Gain practical experience with Large Language Model implementation.
+
+--------------------------------------------------------------------
+
+Learning Journey
+
+The project follows a structured progression from basic machine learning concepts to a complete language model.
+
+Stage 1
+
+Mathematical Foundations
+
+Topics Covered
+
+• Linear Algebra
+• Calculus
+• Gradient Descent
+• Optimization
+• Activation Functions
+• Loss Functions
+
+Stage 2
+
+Neural Networks from Scratch
+
+Topics Covered
+
+• Artificial Neurons
+• Forward Propagation
+• Backpropagation
+• Multi-Layer Perceptrons (MLPs)
+• Weight Updates
+• Training Loops
+
+Stage 3
+
+PyTorch Fundamentals
+
+Topics Covered
+
+• Tensors
+• Autograd
+• Computational Graphs
+• Optimizers
+• Training Pipelines
+
+Stage 4
+
+Natural Language Processing
+
+Topics Covered
+
+• Tokenization
+• Vocabulary Construction
+• Byte Pair Encoding (BPE)
+• Embeddings
+• Dataset Preparation
+
+Stage 5
+
+Transformer Architecture
+
+Topics Covered
+
+• Self Attention
+• Multi-Head Attention
+• Residual Connections
+• Layer Normalization
+• Feed Forward Networks
+• Positional Encoding
+
+Stage 6
+
+GPT Model
+
+Topics Covered
+
+• GPT Architecture
+• Text Generation
+• KV Cache
+• Grouped Query Attention
+• Next Token Prediction
+
+--------------------------------------------------------------------
+
+Project Architecture
+
+Input Text
+
+↓
+
+Tokenizer
+
+↓
+
+Vocabulary
+
+↓
+
+Token Embeddings
+
+↓
+
+Positional Encoding
+
+↓
+
+Transformer Blocks
+
+↓
+
+Multi-Head Self Attention
+
+↓
+
+Residual Connections
+
+↓
+
+Feed Forward Networks
+
+↓
+
+Normalization
+
+↓
+
+Linear Projection
+
+↓
+
+Vocabulary Logits
+
+↓
+
+Next Token Prediction
+
+↓
+
+Generated Text
+
+--------------------------------------------------------------------
+
+Core Components
+
+Model Components
+
+GPT Model
+
+The complete transformer-based language model responsible for learning language patterns and generating coherent text.
+
+Transformer Block
+
+Implements the core transformer architecture consisting of self-attention, feed-forward networks, normalization, and residual connections.
+
+Self Attention
+
+Allows every token to attend to every other token within a sequence, enabling contextual understanding.
+
+Multi-Head Attention
+
+Processes multiple attention representations simultaneously, allowing the model to capture different semantic relationships.
+
+Grouped Query Attention (GQA)
+
+Improves inference efficiency while maintaining model performance by reducing computational overhead.
+
+KV Cache
+
+Stores previously computed key and value tensors, dramatically accelerating autoregressive text generation.
+
+Embeddings
+
+Converts discrete token IDs into continuous vector representations.
+
+Positional Encoding
+
+Provides information about token order, enabling transformers to understand sequence structure.
+
+Normalization Layers
+
+Includes:
+
+• Layer Normalization
+• Batch Normalization
+• RMS Normalization
+
+These improve training stability and convergence.
+
+--------------------------------------------------------------------
+
+Natural Language Processing Pipeline
+
+Tokenizer
+
+Converts raw text into numerical tokens suitable for neural network processing.
+
+Vocabulary
+
+Maps every token to a unique integer ID.
+
+Dataset Loader
+
+Prepares token sequences for GPT training.
+
+Batch Loader
+
+Efficiently loads batches during model training.
+
+Preprocessing Utilities
+
+Handles text cleaning, formatting, and token preparation.
+
+--------------------------------------------------------------------
+
+Foundational Machine Learning Components
+
+The project begins by implementing basic neural network concepts manually.
+
+Implemented Components
+
+• Single Artificial Neuron
+• Activation Functions
+• Loss Functions
+• Gradient Descent
+• Backpropagation
+• Multi-Layer Perceptron
+• Training Loop
+• Dead ReLU Detection
+
+Understanding these foundational concepts makes the transformer architecture significantly easier to understand.
+
+--------------------------------------------------------------------
+
+Training Pipeline
+
+Training Process
+
+Raw Text Dataset
+
+↓
+
+Tokenization
+
+↓
+
+Vocabulary Encoding
+
+↓
+
+Sequence Creation
+
+↓
+
+Mini-batch Generation
+
+↓
+
+Forward Pass
+
+↓
+
+Loss Computation
+
+↓
+
+Backpropagation
+
+↓
+
+Weight Updates
+
+↓
+
+Repeat Until Convergence
+
+The training loop is implemented manually, allowing complete control over optimization and experimentation.
+
+--------------------------------------------------------------------
+
+Text Generation Pipeline
+
+Input Prompt
+
+↓
+
+Tokenizer
+
+↓
+
+Embedding Layer
+
+↓
+
+Transformer Layers
+
+↓
+
+Probability Distribution
+
+↓
+
+Next Token Sampling
+
+↓
+
+Append Token
+
+↓
+
+Repeat
+
+↓
+
+Generated Text
+
+The model predicts one token at a time using autoregressive decoding until the desired sequence length is reached.
+
+--------------------------------------------------------------------
+
+Technology Stack
+
+Programming Language
+
+Python
+
+Deep Learning
+
+PyTorch
+
+Machine Learning
+
+Custom Neural Networks
+
+Natural Language Processing
+
+Byte Pair Encoding (BPE)
+
+Transformer Architecture
+
+GPT
+
+Self Attention
+
+Multi-Head Attention
+
+Grouped Query Attention
+
+KV Cache
+
+Training
+
+Autograd
+
+Gradient Descent
+
+Backpropagation
+
+--------------------------------------------------------------------
+
+Concepts Demonstrated
+
+Artificial Intelligence
+
+Machine Learning
+
+Deep Learning
+
+Natural Language Processing
+
+Transformer Models
+
+Large Language Models
+
+Neural Networks
+
+Gradient Descent
+
+Optimization
+
+Backpropagation
+
+Attention Mechanisms
+
+Tokenization
+
+Embeddings
+
+Language Modeling
+
+Sequence Prediction
+
+Autoregressive Generation
+
+--------------------------------------------------------------------
+
+Real-World Applications
+
+Although educational in nature, the concepts implemented in this project are the foundation of many commercial AI systems.
+
+Applications include:
+
+Chatbots
+
+Virtual Assistants
+
+AI Coding Assistants
+
+Document Summarization
+
+Machine Translation
+
+Question Answering
+
+Search Engines
+
+Content Generation
+
+Writing Assistants
+
+Conversational AI
+
+Knowledge Retrieval
+
+AI Agents
+
+Every modern Large Language Model is built upon the same fundamental concepts implemented in this project.
+
+--------------------------------------------------------------------
+
+Business Value
+
+Understanding GPT internals enables engineers to:
+
+• Build custom language models.
+• Optimize transformer architectures.
+• Develop enterprise AI solutions.
+• Improve inference efficiency.
+• Create specialized domain-specific LLMs.
+• Debug model behavior.
+• Build Retrieval-Augmented Generation (RAG) systems.
+• Develop AI copilots and intelligent assistants.
+
+This knowledge is valuable for AI Engineers, Machine Learning Engineers, NLP Researchers, and LLM Developers.
+
+--------------------------------------------------------------------
+
+Challenges Faced
+
+Several technical challenges were encountered during development.
+
+Mathematical Challenges
+
+• Understanding backpropagation
+• Deriving gradients
+• Optimizing loss functions
+
+Engineering Challenges
+
+• Implementing attention correctly
+• Managing tensor dimensions
+• Debugging transformer blocks
+• Maintaining numerical stability
+
+NLP Challenges
+
+• Designing an efficient tokenizer
+• Building vocabularies
+• Preparing sequential datasets
+
+Performance Challenges
+
+• Efficient batching
+• Memory optimization
+• Faster inference using KV Cache
+• Implementing Grouped Query Attention
+
+--------------------------------------------------------------------
+
+Future Improvements
+
+Potential future enhancements include:
+
+• GPT-2 compatible architecture
+• Rotary Positional Embeddings (RoPE)
+• Flash Attention
+• Mixture of Experts (MoE)
+• Quantization
+• LoRA Fine-tuning
+• Reinforcement Learning from Human Feedback (RLHF)
+• Retrieval-Augmented Generation (RAG)
+• Distributed Multi-GPU Training
+• Hugging Face checkpoint compatibility
+• Streaming text generation
+• Chat interface
+• Model evaluation benchmarks
+
+--------------------------------------------------------------------
+
+Educational Value
+
+This project is designed to help developers understand every major component of a transformer model.
+
+Rather than treating GPT as a black box, it explains how every layer contributes to language understanding and generation.
+
+Developers who complete this project gain practical knowledge of:
+
+• Deep Learning
+• Neural Networks
+• NLP
+• Transformers
+• Large Language Models
+• PyTorch
+• AI System Design
+
+--------------------------------------------------------------------
+
+Why This Project Is Valuable
+
+GPT From Scratch demonstrates the ability to:
+
+• Implement deep learning algorithms manually.
+• Build transformer architectures without external libraries.
+• Understand and explain every stage of language model development.
+• Design scalable AI systems.
+• Translate theoretical machine learning concepts into working software.
+
+It showcases expertise in Artificial Intelligence, Deep Learning, Natural Language Processing, Transformer Architecture, and Large Language Models—skills that are highly relevant for AI Engineer, Machine Learning Engineer, and LLM Engineer roles.
+
+--------------------------------------------------------------------
+
+Keywords
+
+Artificial Intelligence
+
+Machine Learning
+
+Deep Learning
+
+Large Language Models
+
+LLMs
+
+GPT
+
+GPT From Scratch
+
+Transformer
+
+Self Attention
+
+Multi-Head Attention
+
+Grouped Query Attention
+
+KV Cache
+
+PyTorch
+
+Natural Language Processing
+
+Tokenization
+
+Byte Pair Encoding
+
+Embeddings
+
+Layer Normalization
+
+RMS Normalization
+
+Backpropagation
+
+Gradient Descent
+
+Autoregressive Language Modeling
+
+Text Generation
+
+Sequence Modeling
+
+Neural Networks
+
+Language Models
+
+AI Engineering
+
+LLM Development
+
+Transformer Architecture

@@ -1,0 +1,43 @@
+About Me
+
+Hello! I'm Shobhit Shourya, a Computer Science graduate from Vellore Institute of Technology (VIT) with a passion for Artificial Intelligence, Machine Learning, and Software Engineering.
+
+I enjoy solving real-world problems through technology and continuously strive to learn new concepts, frameworks, and tools. My interests span Machine Learning, Deep Learning, Computer Vision, Data Science, Backend Development, and Large Language Models (LLMs).
+
+I believe that the best way to learn is by building. That's why I regularly work on end-to-end projects involving AI applications, automation tools, recommendation systems, computer vision models, and full-stack software development.
+
+Outside of academics and internships, I actively participate in hackathons, technical workshops, and community events. I have organized AI-focused events, mentored students, and contributed to technical communities through leadership roles.
+
+My strengths include:
+- Strong problem-solving ability
+- Analytical thinking
+- Quick learning and adaptability
+- Team collaboration
+- Attention to detail
+- Continuous improvement mindset
+
+Technical Interests:
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- Data Science
+- Backend Development
+- Software Engineering
+- Automation
+- Cloud Technologies
+
+Career Goals:
+My goal is to build intelligent software products that create real-world impact. I aspire to work as an AI Engineer or Machine Learning Engineer, developing scalable AI systems, LLM-powered applications, and innovative software solutions that improve people's lives.
+
+Work Philosophy:
+I value writing clean, maintainable code, continuously learning emerging technologies, collaborating effectively with teams, and delivering high-quality solutions. I believe curiosity, consistency, and practical experience are the keys to becoming a great engineer.
+
+Fun Facts:
+- I enjoy exploring new AI technologies and research papers.
+- I love building personal projects to learn new concepts.
+- I actively practice coding and problem-solving.
+- I enjoy mentoring and sharing technical knowledge with others.
+- I am always excited to work on challenging and innovative projects.

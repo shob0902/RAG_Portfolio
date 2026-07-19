@@ -1,0 +1,95 @@
+Internships
+
+Machine Learning Intern
+Company: Syngene International Limited
+Location: Bangalore, India
+Duration: January 2026 – July 2026
+
+Overview:
+Worked on machine learning and computer vision solutions for microscopic chemical image classification. Built production-ready tools that combined data preprocessing, deep learning, automation, and desktop applications to improve business workflows.
+
+Key Responsibilities:
+- Developed and optimized Convolutional Neural Network (CNN) models for microscopic chemical image classification.
+- Improved model performance through data preprocessing, feature engineering, and exploratory data analysis.
+- Built a Python desktop application using Tkinter for real-time image classification.
+- Created automated data cleaning pipelines to transform raw CSV datasets into structured Excel reports.
+- Worked closely with domain experts to understand business requirements and deliver practical AI solutions.
+- Improved inference reliability and overall prediction accuracy through experimentation and optimization.
+
+Technologies Used:
+Python
+TensorFlow
+OpenCV
+NumPy
+Pandas
+Tkinter
+Machine Learning
+Computer Vision
+Excel Automation
+
+------------------------------------------------------------
+
+Software Programmer Intern
+Company: Parintek Innovations
+Duration: May 2025 – July 2025
+
+Overview:
+Worked as a software development intern focusing on backend development, automation, REST API development, and database optimization.
+
+Key Responsibilities:
+- Developed RESTful APIs for backend services.
+- Optimized SQL queries, reducing API response time by approximately 25%.
+- Automated ETL workflows for data validation and reporting.
+- Built Python automation scripts that reduced manual effort and improved reporting accuracy.
+- Maintained high-quality code using JUnit and PyTest.
+- Worked in Agile development environments with collaborative engineering teams.
+
+Technologies Used:
+Python
+Java
+SQL
+REST APIs
+Flask
+Git
+GitHub
+JUnit
+PyTest
+ETL
+
+Professional Experience
+
+I have gained practical industry experience in Machine Learning, Data Science, Backend Development, and Software Engineering through internships and real-world projects.
+
+During my internship at Syngene International Limited, I worked on AI-powered computer vision systems for microscopic chemical image classification. My responsibilities included developing CNN-based deep learning models, performing data preprocessing and feature engineering, conducting exploratory data analysis, and improving prediction reliability. I also built a desktop application using Python and Tkinter for real-time image classification and developed automation pipelines for processing raw datasets into structured reports.
+
+At Parintek Innovations, I worked as a Software Programmer Intern where I focused on backend development and automation. I developed RESTful APIs, optimized SQL queries to improve application performance, automated ETL workflows, and built Python scripts for data validation and reporting. My work reduced manual effort while improving system efficiency and code quality.
+
+Across both internships, I gained experience in:
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Backend Development
+- Data Engineering
+- API Development
+- Database Optimization
+- Automation
+- Software Testing
+- Agile Development
+
+Technical Areas Worked On:
+- Python Development
+- SQL
+- TensorFlow
+- Scikit-learn
+- OpenCV
+- Pandas
+- NumPy
+- Flask
+- REST APIs
+- Tkinter
+- Git & GitHub
+- ETL Pipelines
+- Data Cleaning
+- Excel Automation
+
+These experiences strengthened my ability to build end-to-end AI and software solutions, collaborate with cross-functional teams, and deliver scalable applications that solve real-world business problems.
